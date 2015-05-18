@@ -1,0 +1,285 @@
+/* Generic */
+
+body {
+	color: #909090!important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h5, blockquote .bold-quote {
+	font-size: 1.3em!important;
+}
+
+.introduction h2 {
+    font-size: 3.3em;
+    line-height: 1em;
+    color: #222;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+.introduction p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px!important;
+}
+
+/* Footer */
+.aui #footer {
+	text-align: left;
+}
+
+@media (min-width: 1200px) {
+	.aui .row {
+		margin-left: 0;
+	}
+}
+
+#footer .logo {
+ 	max-height: initial!important;
+}
+
+/* Header */
+
+.aui .navbar .nav>li>a {
+	color: #FFF;
+	text-shadow: none;
+}
+
+.aui .navbar .nav li.dropdown>.dropdown-toggle .caret {
+	border-top-color: #555;
+	border-bottom-color: #555;
+}
+
+.aui #wrapper {
+	padding: 0;
+}
+
+h5, h6 {
+	font-family: 'Montserrat', sans-serif!important;
+	font-size: 1.1em!important;
+}
+
+.sep-top-xs {
+	padding-top: 1.5em!important;
+}
+
+.navbar .dropdown-menu > li > a {
+	position: inherit!important;
+}
+
+/* Forms */
+
+#filters .btn-light, .btn-light {
+	color: #222222!important;
+}
+.btn-lg {
+	padding: 12px 30px!important;
+}
+.btn {
+	border-radius: 40px!important;
+}
+.btn-lg {
+	font-size: 18px!important;
+}
+.btn-primary {
+  background-color: #1abc9c!important;
+  background-image: none!important;
+  text-shadow: none!important;
+}
+.btn-light.btn-bordered {
+  color: #ffffff!important;
+  background-color: transparent!important;
+  border-color: #ffffff;
+  background-image: none;
+  text-shadow: none;
+  border: 2px solid;
+}
+
+.panel-group .panel, .panel {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05)!important;
+  border: 1px solid #ddd!important;
+  border-radius: 5px!important;
+}
+
+/* Slider */
+
+.demo-2 .sl-slider h2, .demo-2 .sl-slider blockquote {
+	line-height: 1.3;
+}
+
+.demo-2 .sl-slider blockquote {
+	width: 90%;
+}
+
+.sl-slide blockquote ol,  .sl-slide blockquote ul {
+  list-style: none;
+}
+
+.sl-slide blockquote ol li,  .sl-slide blockquote ul li {
+  font-size: 1.3em;
+  padding: 3px 0;
+}
+
+/* Custom search (header) */
+
+#main-navigation .container .h_search_form_wrapper input {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	height: 34px;
+	padding: 6px 12px;
+}
+
+.aui #main-navigation .container .h_search_form_wrapper .btn {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	margin-top: 0;
+}
+
+.aui #main-navigation .container .h_search_form_wrapper .btn:hover, 
+.aui #main-navigation .container .h_search_form_wrapper .btn:focus, 
+.aui #main-navigation .container .h_search_form_wrapper .btn:active, 
+.aui #main-navigation .container .h_search_form_wrapper .btn.active, 
+.aui #main-navigation .container .h_search_form_wrapper .btn.disabled, 
+.aui #main-navigation .container .h_search_form_wrapper .btn[disabled] {
+    color: #000;
+    background-color: transparent;
+}
+
+/* Dockbar */
+
+.portlet-static-end.portlet-dockbar .container .collapse {
+	display: inline;
+}
+
+.portlet-static-end.portlet-dockbar .container .nav-account-controls {
+	top: 71px;
+	right: 110px!important;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav-add-controls {
+	top: 20%!important;
+}
+
+.portlet-static-end.portlet-dockbar .nav-account-controls .dropdown-menu > li > a {
+	border-bottom: none!important;
+}
+
+/* Custom login styles */
+
+#main-navigation .dropdown-menu.widget-box header {
+	display: none;
+}
+
+#main-navigation .dropdown-menu.widget-box .portlet-content {
+	padding: 0;
+	border: 0;
+}
+
+#main-navigation .portlet-static-end.portlet-login input {
+	height: 46px;
+	padding: 10px 16px;
+	font-size: 0.9em;
+	border-radius: 0;
+}
+
+#main-navigation .portlet-static-end.portlet-login input[type="text"], 
+#main-navigation .portlet-static-end.portlet-login input[type="password"] {
+	width: 100%;
+}
+
+.aui #main-navigation .portlet-static-end.portlet-login .form-inline .radio input[type="radio"], 
+.aui #main-navigation .portlet-static-end.portlet-login .form-inline .checkbox input[type="checkbox"] {
+	height: auto;
+}
+
+.aui #main-navigation .portlet-static-end.portlet-login .form-inline.form-group > div {
+	float: left;
+}
+
+.aui #main-navigation .portlet-static-end.portlet-login .form-inline.form-group .button-holder {
+	margin: 0;
+}
+
+/* Forms */
+
+.form-control {
+	width: 100%!important;
+	/* height: 34px!important; */
+} 
+
+input.form-control, select.form-control {
+	height: 34px!important;
+}
+
+.aui .table thead th {
+	background-color: transparent;
+	font-weight: bold;
+	color: #909090;
+}
+
+.aui input[type="submit"] {
+  margin: 0!important;
+}
+
+.aui .table td {
+	background-color: transparent;
+	color: #909090;
+}
+
+form .register-button .button-holder button {
+	padding: 10px 40px;
+	border: 2px solid;
+}
+
+/* Detail styles */
+
+.aui .dl-horizontal dt {
+	text-align: left;
+}
+
+/* Accordion */
+
+.accordion-group .accordion-item .accordion-heading {
+	overflow: visible!important;
+}
+
+/* Info styles */
+
+.icon-box.icon-xs.sep-top-xs.icon-gradient {
+	padding-top: 1.5em!important;
+	display: block!important;
+}
+
+.icon-box.icon-xs .icon-box-content {
+	margin: 0 0 0 65px;
+	display: block!important;
+}
+
+.chart span {
+	top: 78%!important;
+}
+
+.chart b {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Web form portlet */
+
+.web-form-portlet .field {
+	background-color: #e9e9e9!important;
+	border-color: #e9e9e9!important;
+	color: #333!important;
+	height: 46px!important;
+	padding: 10px 16px!important;
+	width: 100%!important;
+}
+
+.web-form-portlet .field.lfr-textarea-container {
+	height: 115px!important;
+}
+
+.web-form-portlet label.control-label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
