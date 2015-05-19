@@ -29,7 +29,6 @@
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/plugin.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/bootstrap.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/bootstrap-extend.js"></script>
-    <script src="$themeDisplay.getPathThemeRoot()/js/vendor/bootstrap-datepicker.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/main.js"></script>
     
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> 
@@ -49,17 +48,19 @@
 			#parse ("$full_templates_path/navigation.vm")
 		#end
 		
-		<!-- Start header Section-->
+	<!-- Start header Section-->
       <section class="demo-2">
+		
+		#if ( $the_title == "Welcome" || $the_title == "Home" )
         <!-- Start slider-wrapper-->
         <div id="slider" style="display:none;" class="sl-slider-wrapper">
           <div class="sl-slider">
             <!-- start slide-->
             <div data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2" class="sl-slide">
-              <div style="background-image: url($themeDisplay.getPathThemeRoot()/images/intro-home.jpg);" class="sl-slide-inner">
+              <div style="background-image: url($themeDisplay.getPathThemeRoot()/images/slider1.jpg);" class="sl-slide-inner">
                 <div class="slide-container">
                   <div class="slide-content text-center">
-                    <h2 class="main-title">ANYPLAST, EL PORTAL DE COMPRA-VENTA DE <span class="text-primary">PLÁSTICO RECICLADO</span></h2>
+                    <h2 class="main-title">ANYPLAST, EL MERCADO VIRTUAL DEL <span class="text-primary">PLÁSTICO RECICLADO</span></h2>
                     <blockquote>
                       <a class="btn btn-light btn-bordered btn-lg">Login</a>
 					  <a href="" target="_blank" class="btn btn-primary btn-lg">Regístrate</a>
@@ -71,10 +72,10 @@
             <!-- end slide-->
             <!-- start slide-->
             <div data-orientation="horizontal" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5" class="sl-slide">
-              <div style="background: url($themeDisplay.getPathThemeRoot()/images/intro-home.jpg);" class="sl-slide-inner">
+              <div style="background: url($themeDisplay.getPathThemeRoot()/images/slider2.jpg);" class="sl-slide-inner">
                 <div class="slide-container">
                   <div class="slide-content text-center">
-                    <h2 class="main-title">MIRA QUE HAY EN VENTA<span class="text-primary"></span></h2>
+                    <h2 class="main-title">BUSCA, ENCUENTRA<span class="text-primary"></span></h2>
                     <blockquote>
                       <p>Operaciones a tiempo real</p>
                     </blockquote>
@@ -89,7 +90,7 @@
             <!-- end slide-->
             <!-- start slide-->
             <div data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1" class="sl-slide">
-              <div style="background: url($themeDisplay.getPathThemeRoot()/images/intro-home.jpg);" class="sl-slide-inner">
+              <div style="background: url($themeDisplay.getPathThemeRoot()/images/slider3.jpg);" class="sl-slide-inner">
                 <div class="slide-container">
                   <div class="slide-content text-center">
                     <h2 class="main-title">OPERAR EN ANYPLAST ES <span class="text-primary">FÁCIL</span></h2>
@@ -105,19 +106,24 @@
             <!-- end slide-->
             <!-- start slide-->
             <div data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="1.5" data-slice2-scale="0.5" class="sl-slide">
-              <div style="background: url($themeDisplay.getPathThemeRoot()/images/intro-home.jpg);" class="sl-slide-inner">
+              <div style="background: url($themeDisplay.getPathThemeRoot()/images/slider4.jpg);" class="sl-slide-inner">
                 <div class="slide-container">
                   <div class="slide-content text-center">
-                    <h2 class="main-title">MÁS QUE ANUNCIOS<span class="text-primary"></span></h2>
-                    <blockquote>
-                      <ul>
-                      	<li>Muestras</li>
-                      	<li>Pruebas</li>
-                      	<li>Certificaciones</li>
-                      	<li>Gestión</li>
-                      	<li>Transporte</li>
-                      </ul>
+                    <h2 class="main-title">MÁS QUE ANUNCIOS</h2>
+                    <div style="padding: 0 15%;">
+                    <blockquote class="bquote3cols">
+                    	<p>Muestras</p>
+                    	<p>Pruebas</p>
                     </blockquote>
+                    <blockquote class="bquote3cols">
+                      	<p>Compras</p>
+                      	<p>Certificaciones</p>
+                    </blockquote>
+                    <blockquote class="bquote3cols">
+                      	<p>Gestión</p>
+                      	<p>Transporte</p>
+                    </blockquote>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -127,15 +133,19 @@
           <!-- start slider navigation-->
           <nav id="nav-arrows" class="nav-arrows"><span class="nav-arrow-prev">Previous</span><span class="nav-arrow-next">Next</span></nav>
           <nav id="nav-dots" class="nav-dots"><span class="nav-dot-current"></span><span></span><span></span><span></span></nav>
-          <!-- end slider navigation-->
+          <!-- end slider navigation-->		
         </div>
         <!-- End slider-wrapper-->
+		
+		#else
+		<div style="height: 70px; clear: both; overflow: hidden; position: relative;"></div>
+		#end
+		
       </section>
 		
 		$theme.include($body_top_include)
 		
 		<div class="container-fluid" id="wrapper">
-		
 			<div id="content">
 				<nav id="breadcrumbs">#breadcrumbs()</nav>
 		
@@ -151,48 +161,94 @@
 			</div>
 			
 			<footer id="footer">
-		        <div class="inner sep-bottom-md">
+		        <div class="inner sep-bottom-xs">
 		          <div class="container">
 		            <div class="row">
-		              <div class="col-md-4 col-sm-6">
-		                <div class="widget sep-top-lg"><img src="$themeDisplay.getPathThemeRoot()/images/logo-dark.jpg" alt="" class="logo"><small class="sep-top-xs sep-bottom-md"></small>
-		                  <h6 class="upper widget-title">Síguenos en</h6>
-		                  <ul class="social-icon sep-top-xs">
-		                    <li><a href="#" class="fa fa-linkedin fa-lg"></a></li>
-		                    <li><a href="#" class="fa fa-twitter fa-lg"></a></li>
-		                    <li><a href="#" class="fa fa-facebook fa-lg"></a></li>
-		                    <li><a href="#" class="fa fa-google-plus fa-lg"></a></li>
-		                  </ul>
-		                </div>
+		              <div class="col-md-6 col-sm-6">
+						<div class="row">
+						  <div class="widget sep-top-md">
+						    <img src="/anyplast-theme/images/logo-anyplast.png" alt="" class="logo">
+						  </div>
+						</div>
+			            <div class="row">
+			              <div class="col-md-6 col-sm-6">
+			                <div class="widget sep-top-sm">
+			                  <h6 class="upper widget-title"></h6>
+			                  <ul class="widget-address sep-top-xs">
+			                    <li><i class="fa fa-info-circle fa-lg"></i><small>Anyrecycled S.L. <br/>B 66424243</small></li>
+			                    <li><i class="fa fa-map-marker fa-lg"></i><small>C/La Rasa, 52<br/>08221 Terrassa<br/>(Barcelona)</small></li>
+			                  </ul>
+			                </div>
+			              </div>
+			              <div class="col-md-6 col-sm-6">
+			                <div class="widget sep-top-sm">
+			                  <h6 class="upper widget-title"></h6>
+			                  <ul class="widget-address sep-top-xs">
+			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 930 13 53 25 <br>(+34) 615 92 33 22</small></li>
+			                    <li><i class="fa fa-envelope fa-lg"></i><small><a href="#">info@anyplast.com</a></small></li>
+			                    <li><i class="fa fa-clock-o fa-lg"></i><small>Lunes / Viernes<br>08:00 - 19:00</small></li>
+			                  </ul>
+			                </div>
+			              </div>
+			            </div>
 		              </div>
-		              <div class="col-md-4 col-sm-6">
-		                <div class="widget sep-top-lg">
-		                  <h6 class="upper widget-title"></h6>
-		                  <ul class="widget-address sep-top-xs">
-		                    <li><i class="fa fa-info-circle fa-lg"></i><small>Anyrecycled S.L. <br/>B 66424243</small></li>
-		                    <li><i class="fa fa-map-marker fa-lg"></i><small>C/La Rasa, 52<br/>08221 Terrassa<br/>(Barcelona)</small></li>
-		                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 930 13 53 25 <br>(+34) 615 92 33 22</small></li>
-		                    <li><i class="fa fa-envelope fa-lg"></i><small><a href="#">info@anyplast.com</a></small></li>
-		                    <li><i class="fa fa-clock-o fa-lg"></i><small>Lunes / Viernes<br>08:00 - 19:00</small></li>
-		                  </ul>
-		                </div>
+		              <div class="col-md-2 col-sm-6">
+						  <div class="row">
+							<div class="widget sep-top-lg">
+							  <h6 class="upper widget-title">Síguenos en</h6>
+							  <ul class="social-icon sep-top-xs">
+								<li><a href="#" class="fa fa-linkedin fa-lg"></a></li>
+								<li><a href="#" class="fa fa-twitter fa-lg"></a></li>
+								<li><a href="#" class="fa fa-facebook fa-lg"></a></li>
+								<li><a href="#" class="fa fa-google-plus fa-lg"></a></li>
+							  </ul>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="widget sep-top-md">
+							  <h6 class="upper widget-title">Formas de pago</h6>
+							  <ul class="payment-icon">
+								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos cardVisa" width="45" alt="Visa" title="Pago seguro con Visa"></li>
+								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos cardMasterCard" width="45" alt="MasterCard" title="Pago seguro con MasterCard"></li>
+							  </ul>
+							  <ul class="payment-icon">
+								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos cardAmericanExpress" width="45" alt="AmericanExpress" title="Pago seguro con AmericanExpress"></li>
+								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos cardEuro6000" width="45" alt="Euro6000" title="Pago seguro con Euro6000"></li>
+							  </ul>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="widget sep-top-md">
+							  <h6 class="upper widget-title">Trabajamos con</h6>
+							  <ul class="work-icon">
+								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workEnvialia" width="47" alt="Envialia" title="Envíos con Envialia"></li>
+								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workTDN" width="47" alt="TDN" title="Envíos con TDN"></li>
+								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workBSabadell" width="47" alt="BancSabadell" title="Pago seguro mediante TPV BancSabadell"></li>
+							  </ul>
+							</div>
+						  </div>
 		              </div>
 		              <div class="col-md-4 col-sm-6">
 		                <div class="widget sep-top-lg">
 		                  <h6 class="upper widget-title">Google Maps</h6>
-		                  <div id="map_canvas" style="width: 100%; height: 225px;"></div>
+		                  <div id="map_canvas" style="width: 100%; height: 300px;"></div>
 		                </div>
 		              </div>
 		            </div>
 		          </div>
 		        </div>
+		        
 		        <div class="copyright sep-top-xs sep-bottom-xs">
 		          <div class="container">
 		            <div class="row">
-		              <div class="col-md-3"><small>Copyright 2014 © Anyrecycled S.L.</small></div>
-		              <div class="col-md-3"><small><a href="/aviso-legal">Aviso legal</a></small></div>
-		              <div class="col-md-3"><small><a href="/politica-privacidad">Política de privacidad</a></small></div>
-		              <div class="col-md-3"><small><a href="/politica-devoluciones">Política de devoluciones</a></small></div>
+		              <div class="col-md-7"><small>Copyright 2015 © Anyrecycled S.L.</small></div>
+		              <div class="col-md-5 text-right">
+						<small>
+						  <a href="/aviso-legal">Aviso legal</a> |
+						  <a href="/politica-privacidad">Política de privacidad</a> |
+						  <a href="/politica-devoluciones">Política de devoluciones</a>
+						</small>
+					  </div>
 		            </div>
 		          </div>
 		        </div>

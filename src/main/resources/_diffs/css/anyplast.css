@@ -9,19 +9,6 @@ h5, blockquote .bold-quote {
 	font-size: 1.3em!important;
 }
 
-.introduction h2 {
-    font-size: 3.3em;
-    line-height: 1em;
-    color: #222;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-    
-.introduction p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px!important;
-}
-
 /* Footer */
 .aui #footer {
 	text-align: left;
@@ -36,6 +23,29 @@ h5, blockquote .bold-quote {
 #footer .logo {
  	max-height: initial!important;
 }
+
+#footer ul.payment-icon li{
+	display: inline-block;
+	height: 40px;
+	padding: 0 10px 0 0;
+}
+#footer ul.work-icon li{
+	display: inline-block;
+	height: 45px;
+	padding: 0px;
+}
+#footer  .minilogos{
+	background-image: url('/anyplast-theme/images/icons/minilogos.png');
+	height: 40px;
+}
+#footer  .cardVisa{ background-position: 0px 0px; }
+#footer  .cardMasterCard{ background-position: -52px 0px; }
+#footer  .cardAmericanExpress{ background-position: -102px 0px; }
+#footer  .cardEuro6000{ background-position: -155px 0px; }
+
+#footer  .workEnvialia{ background-position: 0px -40px; }
+#footer  .workTDN{ background-position: -95px -40px; }
+#footer  .workBSabadell{ background-position: -48px -40px; }
 
 /* Header */
 
@@ -99,6 +109,12 @@ h5, h6 {
   border: 1px solid #ddd!important;
   border-radius: 5px!important;
 }
+
+/* Tables */
+tr.ad_venda{ background-color: #e9ffff; }
+
+tr.ad_compra{ background-color: #e9ffe9; }
+
 
 /* Slider */
 
