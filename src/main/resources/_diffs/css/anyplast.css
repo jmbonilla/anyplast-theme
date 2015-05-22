@@ -9,6 +9,10 @@ h5, blockquote .bold-quote {
 	font-size: 1.3em!important;
 }
 
+.aui a {
+	color: #009245;
+}
+
 /* Footer */
 .aui #footer {
 	text-align: left;
@@ -91,7 +95,7 @@ h5, h6 {
 	font-size: 18px!important;
 }
 .btn-primary {
-  background-color: #1abc9c!important;
+  background-color: #009245!important;
   background-image: none!important;
   text-shadow: none!important;
 }
@@ -252,6 +256,19 @@ form .register-button .button-holder button {
 
 .aui .dl-horizontal dt {
 	text-align: left;
+}
+
+.aui dl.preuDetall {
+	border-bottom: 1px solid #999;
+	margin-bottom: 0 !important;
+	padding-bottom: 5px;
+	
+}
+
+.aui dl.preuDetall dd {
+	color: #009245;
+	text-align: right;
+	font-size: 120%;
 }
 
 /* Accordion */

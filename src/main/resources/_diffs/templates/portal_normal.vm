@@ -62,8 +62,8 @@
                   <div class="slide-content text-center">
                     <h2 class="main-title">ANYPLAST, EL MERCADO VIRTUAL DEL <span class="text-primary">PLÁSTICO RECICLADO</span></h2>
                     <blockquote>
-                      <a class="btn btn-light btn-bordered btn-lg">Login</a>
-					  <a href="" target="_blank" class="btn btn-primary btn-lg">Regístrate</a>
+                      <a href="/autenticacion" class="btn btn-light btn-bordered btn-lg">Login</a>
+					  <a href="/autenticacion" class="btn btn-primary btn-lg">Regístrate</a>
                     </blockquote>
                   </div>
                 </div>
@@ -80,8 +80,8 @@
                       <p>Operaciones a tiempo real</p>
                     </blockquote>
                     <blockquote>
-                      <a href="" class="btn btn-primary btn-lg">Anuncios de compra</a>
-					  <a href="" class="btn btn-primary btn-lg">Anuncios de venta</a>
+                      <a href="/quiero-vender" class="btn btn-primary btn-lg">Anuncios de compra</a>
+					  <a href="/quiero-comprar" class="btn btn-primary btn-lg">Anuncios de venta</a>
                     </blockquote>
                   </div>
                 </div>
@@ -95,9 +95,9 @@
                   <div class="slide-content text-center">
                     <h2 class="main-title">OPERAR EN ANYPLAST ES <span class="text-primary">FÁCIL</span></h2>
                     <blockquote>
-                      <a href="" class="btn btn-primary btn-lg">Sobre Anyplast</a>
-					  <a href="" class="btn btn-primary btn-lg">Preguntas frecuentes</a>
-					  <a href="" class="btn btn-primary btn-lg">Video tutorial</a>
+                      <a href="/welcome#sobreAny" class="btn btn-primary btn-lg">Sobre Anyplast</a>
+					  <a href="/faq" class="btn btn-primary btn-lg">Preguntas frecuentes</a>
+					  <a href="/welcome#videoAny" class="btn btn-primary btn-lg">Video tutorial</a>
                     </blockquote>
                   </div>
                 </div>
