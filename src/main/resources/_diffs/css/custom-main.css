@@ -64,6 +64,12 @@ blockquote.theme {
 .upper {
   text-transform: uppercase;
 }
+
+.aui .portlet-journal-content .journal-content-article, .html-editor.portlet-message-boards {
+	word-break: keep-all !important;
+	-moz-hyphens: none !important;
+}
+
 /* 02. General Rules
    ---------------------------------------------------------------------------*/
 html,
