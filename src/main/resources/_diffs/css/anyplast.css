@@ -116,8 +116,8 @@ h5, h6 {
 
 /* Tables */
 tr.ad_venda{ background-color: #e9ffff; }
-
 tr.ad_compra{ background-color: #e9ffe9; }
+tr.noValidat{ background-color: #ffd0d0; }
 
 
 /* Slider */

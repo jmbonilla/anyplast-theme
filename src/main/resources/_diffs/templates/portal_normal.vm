@@ -80,8 +80,9 @@
                       <p>Operaciones a tiempo real</p>
                     </blockquote>
                     <blockquote>
-                      <a href="/quiero-vender" class="btn btn-primary btn-lg">Anuncios de compra</a>
-					  <a href="/quiero-comprar" class="btn btn-primary btn-lg">Anuncios de venta</a>
+                      <a href="/productos" class="btn btn-primary btn-lg">Anuncios de compra</a>
+					  <a href="/productos?p_p_id=search_WAR_anyplastportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_search_WAR_anyplastportlet_entity=adBuy"
+					  		class="btn btn-primary btn-lg">Anuncios de venta</a>
                     </blockquote>
                   </div>
                 </div>
@@ -95,9 +96,9 @@
                   <div class="slide-content text-center">
                     <h2 class="main-title">OPERAR EN ANYPLAST ES <span class="text-primary">FÁCIL</span></h2>
                     <blockquote>
-                      <a href="/welcome#sobreAny" class="btn btn-primary btn-lg">Sobre Anyplast</a>
+                      <a href="/welcome#column-16" class="btn btn-primary btn-lg">Sobre Anyplast</a>
 					  <a href="/faq" class="btn btn-primary btn-lg">Preguntas frecuentes</a>
-					  <a href="/welcome#videoAny" class="btn btn-primary btn-lg">Video tutorial</a>
+					  <a href="/welcome#column-7" class="btn btn-primary btn-lg">Video tutorial</a>
                     </blockquote>
                   </div>
                 </div>
