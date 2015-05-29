@@ -243,7 +243,13 @@ tr.noValidat{ background-color: #ffd0d0 !important; }
 }
 
 /* Forms */
-
+fieldset .panel-heading h4{
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 1.6em;
+	padding-bottom: 0.5em;
+}
+					
 .form-control {
 	width: 100%!important;
 	/* height: 34px!important; */
@@ -274,6 +280,21 @@ form .register-button .button-holder button {
 }
 
 /* Detail styles */
+ul#tabs.nav-tabs li>a {
+	padding: 10px 32px !important;
+	background-color: #ffffff;
+	color: #909090;
+	border: 2px solid;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 25px !important;
+	margin: 0 15px 10px 15px;
+}
+ul#tabs.nav-tabs li.active>a {
+	background-color: #009245 !important;
+	color: #fff !important;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25) !important;
+}
 
 .aui .dl-horizontal dt {
 	text-align: left;
@@ -329,4 +350,19 @@ form .register-button .button-holder button {
 .web-form-portlet label.control-label {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/* Controls Liferay */
+li.site-add-controls, 
+li.page-preview-controls, 
+li.page-edit-controls, 
+li.toggle-controls {
+	background: none !important;
+}
+li.site-add-controls>a, 
+li.page-preview-controls>a, 
+li.page-edit-controls>a, 
+li.toggle-controls>a {
+	background: #333 !important;
+
 }
