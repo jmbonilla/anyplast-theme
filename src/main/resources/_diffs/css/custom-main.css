@@ -11,7 +11,7 @@ dl.metadata dt,
 .contact-form label,
 .price-shop,
 blockquote .bold-quote {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 h1 {
   font-size: 4em;
@@ -464,6 +464,15 @@ hr.slim {
 .content-custom-button {
   padding: 25px;
 }
+
+.btn-table{
+	margin: 1px 0px !important;
+	padding: 3px 10px !important;
+}
+.btn-form{
+	margin: 0 25px !important;
+}
+
 /* 06. UI Elements
    ---------------------------------------------------------------------------*/
 /* 06.1 Bootstrap-Touchspin
