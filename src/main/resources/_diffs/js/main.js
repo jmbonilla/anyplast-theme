@@ -906,15 +906,15 @@ Ottavio.events.push(Ottavio.contactForm);
 
 
 $(document).ready(function() {
-    // loading overlay
-    $('body').queryLoader2({
+    // loading overlay -> Ho treiem!
+    /*$('body').queryLoader2({
         barColor: '#222',
         backgroundColor: '#fff',
         percentage: false,
         barHeight: 1
 
     });
-    $('#load').fadeOut().remove();
+    $('#load').fadeOut().remove();*/
 
     if($('#circle-diagram').length) {
         circleDiagram('circle-diagram', 500, 500, '#circle-diagram-data');
@@ -947,7 +947,7 @@ $(document).ready(function() {
     });
     $('a[data-rel^=prettyPhoto]').prettyPhoto({
         slideshow: 5000,
-        autoplay_slideshow: false,
+        autoplay_slideshow: true,
         social_tools: false
     });
 
