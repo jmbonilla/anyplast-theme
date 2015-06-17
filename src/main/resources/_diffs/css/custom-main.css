@@ -597,9 +597,7 @@ hr.slim {
   margin: 0;
 }
 .panel-heading {
-  padding: 18px;
-  border-radius: 0;
-  border: 0;
+  background-color: #33A87A !important;
 }
 .panel-heading a:focus {
   outline: none;

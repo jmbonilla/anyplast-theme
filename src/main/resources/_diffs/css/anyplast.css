@@ -118,6 +118,7 @@ h5, h6 {
 tr.ad_venda{ background-color: #e9ffff; }
 tr.ad_compra{ background-color: #e9ffe9; }
 tr.noValidat{ background-color: #ffd0d0 !important; }
+tr.noPublicat{ background-color: #ffffd0 !important; }
 
 
 /* Slider */
@@ -245,7 +246,7 @@ tr.noValidat{ background-color: #ffd0d0 !important; }
 /* Forms */
 fieldset .panel-heading h4{
 	font-family: 'Montserrat', sans-serif;
-	color: #000;
+	color: #fff;
 	font-size: 1.6em;
 	padding-bottom: 0.5em;
 }
