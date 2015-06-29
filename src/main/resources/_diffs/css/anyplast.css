@@ -120,6 +120,13 @@ tr.ad_compra{ background-color: #e9ffe9; }
 tr.noValidat{ background-color: #ffd0d0 !important; }
 tr.noPublicat{ background-color: #ffffd0 !important; }
 
+tr.opAsampleConfirm, tr.opAcertificationConfirm{
+	background-color: #ffffd0 !important;
+}
+td.opVendiendo{ color: #222222 !important; font-weight: bold; }
+td.opComprando{ color: #49780D !important; font-weight: bold; }
+td.opCertificando{ color: #0066B3 !important; font-weight: bold; }
+
 
 /* Slider */
 
