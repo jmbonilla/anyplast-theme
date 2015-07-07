@@ -127,6 +127,10 @@ td.opVendiendo{ color: #222222 !important; font-weight: bold; }
 td.opComprando{ color: #49780D !important; font-weight: bold; }
 td.opCertificando{ color: #0066B3 !important; font-weight: bold; }
 
+td.opMuestra{ color: #999999 !important; font-weight: bold; }
+td.opPrueba{ color: #a2d165 !important; font-weight: bold; }
+td.opCompra{ color: #009245 !important; font-weight: bold; }
+
 
 /* Slider */
 
