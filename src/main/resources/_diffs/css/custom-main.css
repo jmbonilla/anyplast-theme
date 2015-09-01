@@ -70,6 +70,8 @@ blockquote.theme {
 	-moz-hyphens: none !important;
 }
 
+.aui #breadcrumbs { margin-bottom: 25px !important; }
+
 /* 02. General Rules
    ---------------------------------------------------------------------------*/
 html,
@@ -626,6 +628,20 @@ hr.slim {
 }
 .panel-body {
   padding: 30px;
+}
+
+.panel-operation .panel-heading{
+	padding: 3px 10px !important;
+}
+.panel-operation .panel-heading h4{
+	font-size: 1.4em !important;
+    padding-bottom: 0 !important;
+}
+.panel-operation .panel-body{
+	padding: 15px !important;
+}
+.panel-operation .panel-body dl{
+    margin-bottom: 0.5em !important;
 }
 /* 07. Main Navigation
    ---------------------------------------------------------------------------*/

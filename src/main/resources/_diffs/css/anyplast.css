@@ -130,6 +130,7 @@ td.opCertificando{ color: #0066B3 !important; font-weight: bold; }
 td.opMuestra{ color: #999999 !important; font-weight: bold; }
 td.opPrueba{ color: #a2d165 !important; font-weight: bold; }
 td.opCompra{ color: #009245 !important; font-weight: bold; }
+td.opContacto{ color: #FFAC31 !important; font-weight: bold; }
 
 
 /* Slider */
@@ -377,4 +378,114 @@ li.page-edit-controls>a,
 li.toggle-controls>a {
 	background: #333 !important;
 
+}
+
+/* Invoices */
+#invoiceContainer{
+	margin: auto;
+	width: 210mm;
+	padding: 1em;
+}
+#invoice{
+	color: #000;
+	font-family: helvetica;
+	font-size: 14px;
+}
+#invoice * table{
+	width: 100%;
+}
+#invoice * table tr{
+	vertical-align: top;
+}
+#invoice * table td.td-1{
+	width: 25%;
+}
+#invoice * table td.td-2{
+	width: 35%;
+}
+#invoice * table td.td-3{
+	width: 20%;
+	text-align: right;
+	font-weight: bold;
+}
+#invoice * table td.td-4{
+	width: 15%;
+	text-align: right;
+}
+#invoice * .verd{
+	color: #004621;
+	font-style: italic;
+}
+
+#invoice .row-header{
+	margin-top: 20px;
+	border-bottom: 10px solid #c2d69a;
+	padding-bottom: 0.5em;
+}
+#invoice .row-header table td.logo{
+	width: 75%;
+}
+#invoice .row-header table td p{
+	line-height: 1em;
+}
+
+#invoice .row-1{
+	padding-top: 1em;
+}
+#invoice .row-1 table td{
+	width: 50%;
+}
+#invoice .row-1 h1{
+	color: #999;
+	text-align: right;
+}
+
+#invoice .row-3{
+	padding-top: 2em;
+}
+#invoice .row-3 table{
+	width: 100%;
+}
+#invoice .row-3 table tr{
+	vertical-align: middle;
+}
+#invoice .row-3 table th{
+	border: 1px solid black;
+	background-color: #c2d69a;
+	padding: 0.3em;
+	text-align: center;
+}
+#invoice .row-3 table td.td-b{
+	border: 1px solid black;
+	text-align: right;
+}
+#invoice .row-3 table td.td-c{
+	border: 1px solid black;
+	text-align: left;
+	padding: 0.3em 0 0.3em 4em;
+}
+#invoice .row-3 table td{
+	text-align: left;
+	padding: 0.3em 1em;
+}
+#invoice .row-3 table td.td-desc{
+	border: 1px solid black;
+	text-align: left;
+	width: 70%;
+}
+
+#invoice .row-4{
+	padding-top: 3em;
+}
+
+#invoice .row-footer{
+	padding-top: 5em;
+	font-style: italic;
+	font-size: 12px;
+}
+#invoice .row-footer p.info{
+	margin: 0 3em 2em 2em;
+    background-color: #dff0d8;
+    font-style: normal;
+    padding: 1em;
 }
