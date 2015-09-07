@@ -279,7 +279,7 @@ input.form-control, select.form-control {
 }
 
 .aui input[type="submit"] {
-  margin: 0!important;
+  /* margin: 0!important; */
 }
 
 .aui .table td {

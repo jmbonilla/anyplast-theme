@@ -72,6 +72,10 @@ blockquote.theme {
 
 .aui #breadcrumbs { margin-bottom: 25px !important; }
 
+.boldBlack{
+	color: #000000 !important;	
+}
+
 /* 02. General Rules
    ---------------------------------------------------------------------------*/
 html,
@@ -642,6 +646,10 @@ hr.slim {
 }
 .panel-operation .panel-body dl{
     margin-bottom: 0.5em !important;
+}
+.panel-operation .panel-body hr{
+    border: 0;
+    border-top: 1px solid #ccc;
 }
 /* 07. Main Navigation
    ---------------------------------------------------------------------------*/
