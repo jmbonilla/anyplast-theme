@@ -38,7 +38,7 @@
 
 <body class="$css_class boxed-layout">
 
-	#if ($is_signed_in)
+	#if ($is_signed_in && $themeDisplay.getPermissionChecker().isOmniadmin())
 		#dockbar()
 	#end
 
@@ -60,10 +60,10 @@
               <div style="background-image: url($themeDisplay.getPathThemeRoot()/images/slider1.jpg);" class="sl-slide-inner">
                 <div class="slide-container">
                   <div class="slide-content text-center">
-                    <h2 class="main-title">ANYPLAST, EL MERCADO VIRTUAL DEL <span class="text-primary">PLÁSTICO RECICLADO</span></h2>
+                    <h2 class="main-title">ANYPLAST, EL MERCADO VIRTUAL DEL <span class="text-primary">PLÃ�STICO RECICLADO</span></h2>
                     <blockquote>
                       <a href="/autenticacion" class="btn btn-light btn-bordered btn-lg">Login</a>
-					  <a href="/autenticacion" class="btn btn-primary btn-lg">Regístrate</a>
+					  <a href="/autenticacion" class="btn btn-primary btn-lg">RegÃ­strate</a>
                     </blockquote>
                   </div>
                 </div>
@@ -94,7 +94,7 @@
               <div style="background: url($themeDisplay.getPathThemeRoot()/images/slider3.jpg);" class="sl-slide-inner">
                 <div class="slide-container">
                   <div class="slide-content text-center">
-                    <h2 class="main-title">OPERAR EN ANYPLAST ES <span class="text-primary">FÁCIL</span></h2>
+                    <h2 class="main-title">OPERAR EN ANYPLAST ES <span class="text-primary">FÃ�CIL</span></h2>
                     <blockquote>
                       <a href="/welcome#column-16" class="btn btn-primary btn-lg">Sobre Anyplast</a>
 					  <a href="/faq" class="btn btn-primary btn-lg">Preguntas frecuentes</a>
@@ -110,7 +110,7 @@
               <div style="background: url($themeDisplay.getPathThemeRoot()/images/slider4.jpg);" class="sl-slide-inner">
                 <div class="slide-container">
                   <div class="slide-content text-center">
-                    <h2 class="main-title">MÁS QUE ANUNCIOS</h2>
+                    <h2 class="main-title">MÃ�S QUE ANUNCIOS</h2>
                     <div style="padding: 0 15%;">
                     <blockquote class="bquote3cols">
                     	<p>Muestras</p>
@@ -121,7 +121,7 @@
                       	<p>Certificaciones</p>
                     </blockquote>
                     <blockquote class="bquote3cols">
-                      	<p>Gestión</p>
+                      	<p>GestiÃ³n</p>
                       	<p>Transporte</p>
                     </blockquote>
                     </div>
@@ -196,7 +196,7 @@
 		              <div class="col-md-2 col-sm-6">
 						  <div class="row">
 							<div class="widget sep-top-lg">
-							  <h6 class="upper widget-title">Síguenos en</h6>
+							  <h6 class="upper widget-title">SÃ­guenos en</h6>
 							  <ul class="social-icon sep-top-xs">
 								<li><a href="#" class="fa fa-linkedin fa-lg"></a></li>
 								<li><a href="#" class="fa fa-twitter fa-lg"></a></li>
@@ -222,8 +222,8 @@
 							<div class="widget sep-top-md">
 							  <h6 class="upper widget-title">Trabajamos con</h6>
 							  <ul class="work-icon">
-								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workEnvialia" width="47" alt="Envialia" title="Envíos con Envialia"></li>
-								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workTDN" width="47" alt="TDN" title="Envíos con TDN"></li>
+								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workEnvialia" width="47" alt="Envialia" title="EnvÃ­os con Envialia"></li>
+								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workTDN" width="47" alt="TDN" title="EnvÃ­os con TDN"></li>
 								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workBSabadell" width="47" alt="BancSabadell" title="Pago seguro mediante TPV BancSabadell"></li>
 							  </ul>
 							</div>
@@ -242,12 +242,12 @@
 		        <div class="copyright sep-top-xs sep-bottom-xs">
 		          <div class="container">
 		            <div class="row">
-		              <div class="col-md-7"><small>Copyright 2015 © Anyrecycled S.L.</small></div>
+		              <div class="col-md-7"><small>Copyright 2015 Â© Anyrecycled S.L.</small></div>
 		              <div class="col-md-5 text-right">
 						<small>
 						  <a href="/aviso-legal">Aviso legal</a> |
-						  <a href="/politica-privacidad">Política de privacidad</a> |
-						  <a href="/politica-devoluciones">Política de devoluciones</a>
+						  <a href="/politica-privacidad">PolÃ­tica de privacidad</a> |
+						  <a href="/politica-devoluciones">PolÃ­tica de devoluciones</a>
 						</small>
 					  </div>
 		            </div>

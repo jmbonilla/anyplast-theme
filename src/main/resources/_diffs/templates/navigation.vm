@@ -26,45 +26,34 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right service-nav">
-              <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Idioma<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Català</a></li>
-                  <li><a href="#">Español</a></li>
-                  <li><a href="#">English</a></li>
-                </ul>
-              </li> -->
-              <li><a id="dropdownMenuLogin" href="#" data-toggle="dropdown" class="upper dropdown-toggle">Login / Registro</a>
-                <div aria-labelledby="dropdownMenuLogin" class="dropdown-menu widget-box">
-                  <!--<form>
-                    <div class="form-group">
-                      <label class="sr-only">Usuari</label>
-                      <input type="text" value="" placeholder="Email" name="" class="form-control input-lg">
-                    </div>
-                    <div class="form-group">
-                      <label class="sr-only">Contrassenya</label>
-                      <input type="password" value="" placeholder="Contrassenya" name="" class="form-control input-lg">
-                    </div>
-                    <div class="form-inline form-group">
-                      <button type="button" class="btn btn-primary btn-xs">Login</button>
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"><small> Recorda'm</small>
-                        </label>
-                      </div>
-                    </div>
-                    <a href="register.html"><small>Registrar</small></a><br />
-                    <a href="#"><small>Has perdut la contrassenya?</small></a>
-                  </form>
-                  -->
-                  	#set ($VOID = $velocityPortletPreferences.setValue('display-style', '1'))
-					#set ($VOID = $velocityPortletPreferences.setValue('portletSetupShowBorders', 'false'))
-					#set ($instanceId = 'A1b0')
-					#set ($myPortletId = "58_INSTANCE_${instanceId}")
-					$theme.runtime($myPortletId, '', $velocityPortletPreferences.toString())
-					#set ($VOID = $velocityPortletPreferences.reset())
-                </div>
-              </li>
+              	#if ($is_signed_in)
+					#if ($themeDisplay.getPermissionChecker().isOmniadmin())
+						<li>
+			        		<a id="dropdownMenuLogin" href="#" data-toggle="dropdown" class="upper dropdown-toggle">$themeDisplay.getUser().getFullName()</a>
+			                <ul class="dropdown-menu">
+								<li><a href="/administra-usuarios" title="Administrar usuarios" data-ref="about">Usuarios</a></li>
+								<li><a href="/administra-facturacion" title="Administrar facturaci&oacute;n" data-ref="about">Facturaci&oacute;n</a></li>
+								<li><a href="/administra-plataforma" title="Administrar plataforma" data-ref="about">Plataforma</a></li>
+								<li><a href="/c/portal/logout" title="Salir" data-ref="about">Salir</a></li>
+							</ul>
+			            </li>
+		            #else
+		            	<li>
+			        		<a id="dropdownMenuLogin" href="#" data-toggle="dropdown" class="upper dropdown-toggle">$themeDisplay.getUser().getFullName()</a>
+			                <ul class="dropdown-menu">
+								<li><a href="/mi-cuenta" title="Mi cuenta" data-ref="about">Mi cuenta</a></li>
+								<li><a href="/c/portal/logout" title="Salir" data-ref="about">Salir</a></li>
+							</ul>
+			            </li>
+		            #end
+		        #else
+					<li>
+						<a id="dropdownMenuLogin" href="/login" class="upper">Login / Registro</a>
+		            </li>
+				#end
+              
+              
+              
             </ul>
             <button type="button" class="navbar-toggle"><i class="fa fa-close fa-lg"></i></button>
             <ul class="nav yamm navbar-nav navbar-left main-nav">
