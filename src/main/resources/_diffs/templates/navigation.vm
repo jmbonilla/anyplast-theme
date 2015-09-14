@@ -27,22 +27,23 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right service-nav">
               	#if ($is_signed_in)
+              		
 					#if ($themeDisplay.getPermissionChecker().isOmniadmin())
 						<li>
 			        		<a id="dropdownMenuLogin" href="#" data-toggle="dropdown" class="upper dropdown-toggle">$themeDisplay.getUser().getFullName()</a>
 			                <ul class="dropdown-menu">
-								<li><a href="/administra-usuarios" title="Administrar usuarios" data-ref="about">Usuarios</a></li>
-								<li><a href="/administra-facturacion" title="Administrar facturaci&oacute;n" data-ref="about">Facturaci&oacute;n</a></li>
-								<li><a href="/administra-plataforma" title="Administrar plataforma" data-ref="about">Plataforma</a></li>
-								<li><a href="/c/portal/logout" title="Salir" data-ref="about">Salir</a></li>
+								<li><a href="/administra-usuarios" title="Administrar usuarios" data-ref="about"><i class="icon-user"></i> Usuarios</a></li>
+								<li><a href="/administra-facturacion" title="Administrar facturaci&oacute;n" data-ref="about"><i class="icon-signal"></i> Facturaci&oacute;n</a></li>
+								<li><a href="/administra-plataforma" title="Administrar plataforma" data-ref="about"><i class="icon-folder-close"></i> Plataforma</a></li>
+								<li><a href="/c/portal/logout" title="Salir" data-ref="about"><i class="icon-off"></i> Salir</a></li>
 							</ul>
 			            </li>
 		            #else
 		            	<li>
 			        		<a id="dropdownMenuLogin" href="#" data-toggle="dropdown" class="upper dropdown-toggle">$themeDisplay.getUser().getFullName()</a>
 			                <ul class="dropdown-menu">
-								<li><a href="/mi-cuenta" title="Mi cuenta" data-ref="about">Mi cuenta</a></li>
-								<li><a href="/c/portal/logout" title="Salir" data-ref="about">Salir</a></li>
+								<li><a href="/mi-cuenta" title="Mi cuenta" data-ref="about"><i class="icon-user"></i> Mi cuenta</a></li>
+								<li><a href="/c/portal/logout" title="Salir" data-ref="about"><i class="icon-off"></i> Salir</a></li>
 							</ul>
 			            </li>
 		            #end
