@@ -73,7 +73,8 @@ blockquote.theme {
 .aui #breadcrumbs { margin-bottom: 25px !important; }
 
 .boldBlack{
-	color: #000000 !important;	
+	color: #000000 !important;
+	font-weight: bold;
 }
 
 /* 02. General Rules

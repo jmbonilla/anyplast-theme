@@ -218,6 +218,11 @@ td.opContacto{ color: #FFAC31 !important; font-weight: bold; }
   background-color: #009245;
   border: 1px solid #61c46d;
 }
+.dockbar-user-notifications .user-notifications-list .user-notifications div.body,
+.notifications-portlet .user-notifications-list .user-notifications div.body {
+    font-size: 95%;
+    color: #666;
+}
 
 /* Custom login styles */
 
