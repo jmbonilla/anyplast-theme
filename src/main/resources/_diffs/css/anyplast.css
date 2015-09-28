@@ -1,7 +1,7 @@
 /* Generic */
 
 body {
-	color: #909090!important;
+	color: #000 !important;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -56,6 +56,18 @@ h5, blockquote .bold-quote {
 .aui .navbar .nav>li>a {
 	color: #FFF;
 	text-shadow: none;
+}
+
+.aui .navbar .nav > li.selected a {
+    background: rgba(80,185,108,0.2);
+    padding: 0px 10px 0px 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.aui .navbar .nav>li.open>a {
+    color: #009245;
+    border-top: 0;
 }
 
 .aui .navbar .nav li.dropdown>.dropdown-toggle .caret {
@@ -259,7 +271,7 @@ td.opContacto{ color: #FFAC31 !important; font-weight: bold; }
 fieldset .panel-heading h4{
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	padding-bottom: 0.5em;
 }
 					

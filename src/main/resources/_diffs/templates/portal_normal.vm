@@ -185,7 +185,7 @@
 			                <div class="widget sep-top-sm">
 			                  <h6 class="upper widget-title"></h6>
 			                  <ul class="widget-address sep-top-xs">
-			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 930 13 53 25 <br>(+34) 615 92 33 22</small></li>
+			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 930 11 44 19 <br>(+34) 615 92 33 22</small></li>
 			                    <li><i class="fa fa-envelope fa-lg"></i><small><a href="#">info@anyplast.com</a></small></li>
 			                    <li><i class="fa fa-clock-o fa-lg"></i><small>Lunes / Viernes<br>08:00 - 19:00</small></li>
 			                  </ul>
@@ -209,12 +209,12 @@
 							<div class="widget sep-top-md">
 							  <h6 class="upper widget-title">Formas de pago</h6>
 							  <ul class="payment-icon">
-								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos cardVisa" width="45" alt="Visa" title="Pago seguro con Visa"></li>
-								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos cardMasterCard" width="45" alt="MasterCard" title="Pago seguro con MasterCard"></li>
+								<li><a href="https://www.visaeurope.es" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos cardVisa" width="45" alt="Visa" title="Pago seguro con Visa"></a></li>
+								<li><a href="http://www.mastercard.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos cardMasterCard" width="45" alt="MasterCard" title="Pago seguro con MasterCard"></a></li>
 							  </ul>
 							  <ul class="payment-icon">
-								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos cardAmericanExpress" width="45" alt="AmericanExpress" title="Pago seguro con AmericanExpress"></li>
-								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos cardEuro6000" width="45" alt="Euro6000" title="Pago seguro con Euro6000"></li>
+								<li><a href="https://www.americanexpress.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos cardAmericanExpress" width="45" alt="AmericanExpress" title="Pago seguro con AmericanExpress"></a></li>
+								<li><a href="http://www.euro6000.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos cardEuro6000" width="45" alt="Euro6000" title="Pago seguro con Euro6000"></a></li>
 							  </ul>
 							</div>
 						  </div>
@@ -222,9 +222,9 @@
 							<div class="widget sep-top-md">
 							  <h6 class="upper widget-title">Trabajamos con</h6>
 							  <ul class="work-icon">
-								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workEnvialia" width="47" alt="Envialia" title="EnvÃ­os con Envialia"></li>
-								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workTDN" width="47" alt="TDN" title="EnvÃ­os con TDN"></li>
-								<li><img src="/anyplast-theme/images/icons/x.gif" class="minilogos workBSabadell" width="47" alt="BancSabadell" title="Pago seguro mediante TPV BancSabadell"></li>
+								<li><a href="http://www.envialia.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workEnvialia" width="47" alt="Envialia" title="EnvÃ­os con Envialia"></a></li>
+								<li><a href="http://www.tdn.es" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workTDN" width="47" alt="TDN" title="EnvÃ­os con TDN"></a></li>
+								<li><a href="https://www.bancsabadell.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workBSabadell" width="47" alt="BancSabadell" title="Pago seguro mediante TPV BancSabadell"></a></li>
 							  </ul>
 							</div>
 						  </div>
@@ -246,8 +246,8 @@
 		              <div class="col-md-5 text-right">
 						<small>
 						  <a href="/aviso-legal">Aviso legal</a> |
-						  <a href="/politica-privacidad">Pol&oacute;tica de privacidad</a> |
-						  <a href="/politica-devoluciones">Pol&oacute;tica de devoluciones</a>
+						  <a href="/politica-privacidad">Pol&iacute;tica de privacidad</a> |
+						  <a href="/politica-devoluciones">Pol&iacute;tica de devoluciones</a>
 						</small>
 					  </div>
 		            </div>

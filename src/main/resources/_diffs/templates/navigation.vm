@@ -67,7 +67,7 @@
 							#set ($nav_item_link_css_class="")
 	
 						#if ($nav_item.isSelected())
-							#set ($nav_item_attr_selected="aria-selected='true'")
+							#set ($nav_item_attr_selected="selected")
 							#set ($nav_item_css_class="$nav_item_css_class selected active")
 						#end
 	
@@ -78,7 +78,7 @@
 							#set ($nav_item_link_css_class="dropdown-toggle")
 						#end
 	
-						<li class="dropdown" id="layout_$nav_item.getLayoutId()" >
+						<li class="dropdown $nav_item_attr_selected" id="layout_$nav_item.getLayoutId()" >
 						
 							<a href="$nav_item.getURL()" title="" data-hover="dropdown" 
 								id="menu_item_$nav_item.getLayoutId()" data-ref="#" >
