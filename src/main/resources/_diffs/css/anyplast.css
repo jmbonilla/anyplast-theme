@@ -398,6 +398,14 @@ li.toggle-controls>a {
 }
 
 /* Invoices */
+table.invoiceUpdate{
+    margin-bottom: 3em;
+}
+table.invoiceUpdate td{
+	padding: 0 1em;
+	vertical-align: middle;
+}
+		
 #invoiceContainer{
 	margin: auto;
 	width: 210mm;
@@ -408,6 +416,11 @@ li.toggle-controls>a {
 	font-family: helvetica;
 	font-size: 14px;
 }
+.editInvoice{
+    padding: 2em !important;
+	border: 1px solid #999 !important;
+}
+
 #invoice * table{
 	width: 100%;
 }
@@ -433,6 +446,11 @@ li.toggle-controls>a {
 	color: #004621;
 	font-style: italic;
 }
+#invoice input.form-control, #invoice select.form-control{
+	height: 25px !important;
+	border: none;
+    border-bottom: 1px solid #ccc;
+}
 
 #invoice .row-header{
 	margin-top: 20px;
@@ -455,6 +473,12 @@ li.toggle-controls>a {
 #invoice .row-1 h1{
 	color: #999;
 	text-align: right;
+}
+#invoice .row-1 .editInvoiceType{
+	font-weight: bold;
+    font-size: 26px;
+    height: 40px !important;
+    width: 10em !important;
 }
 
 #invoice .row-3{
@@ -490,6 +514,19 @@ li.toggle-controls>a {
 	text-align: left;
 	width: 70%;
 }
+#invoice .row-3 table.editTable td{
+	padding: 0 1em !important;
+}
+#invoice .row-3 table.editTable input{
+    margin-bottom: 0px !important;
+}
+#invoice .row-3 table.editTable td.td-desc{
+	width: 60% !important;
+}
+#invoice .row-3 table.editTable td.editTd-c{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
 
 #invoice .row-4{
 	padding-top: 3em;
@@ -505,4 +542,7 @@ li.toggle-controls>a {
     background-color: #dff0d8;
     font-style: normal;
     padding: 1em;
+}
+#invoice .editRowFooter{
+	padding-top: 1em !important;
 }
