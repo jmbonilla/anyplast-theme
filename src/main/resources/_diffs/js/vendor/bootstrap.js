@@ -1540,6 +1540,8 @@
       .removeClass('collapse')
       .removeClass('in')
 
+    this.$element.parent().find('.accordion-icon').removeClass('fa-minus').addClass('fa-plus');  
+      
     this.transitioning = 1
 
     var complete = function () {
@@ -1604,7 +1606,7 @@
     var option  = data ? 'toggle' : $this.data()
     var parent  = $this.attr('data-parent')
     var $parent = parent && $(parent)
-
+    $this.find('i').removeClass('fa-plus').addClass('fa-minus');
     if (!data || !data.transitioning) {
       if ($parent) $parent.find('[data-toggle=collapse][data-parent="' + parent + '"]').not($this).addClass('collapsed')
       $this[$target.hasClass('in') ? 'addClass' : 'removeClass']('collapsed')
