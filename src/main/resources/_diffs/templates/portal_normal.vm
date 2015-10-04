@@ -177,7 +177,7 @@
 			                  <h6 class="upper widget-title"></h6>
 			                  <ul class="widget-address sep-top-xs">
 			                    <li><i class="fa fa-info-circle fa-lg"></i><small>Anyrecycled S.L. <br/>B 66424243</small></li>
-			                    <li><i class="fa fa-map-marker fa-lg"></i><small>C/La Rasa, 52<br/>08221 Terrassa<br/>(Barcelona)</small></li>
+			                    <li><i class="fa fa-map-marker fa-lg"></i><small>C/Sardenya, 229 Ático 2a<br/>08013 - Barcelona<br/>(Barcelona)</small></li>
 			                  </ul>
 			                </div>
 			              </div>
@@ -185,7 +185,7 @@
 			                <div class="widget sep-top-sm">
 			                  <h6 class="upper widget-title"></h6>
 			                  <ul class="widget-address sep-top-xs">
-			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 930 11 44 19 <br>(+34) 615 92 33 22</small></li>
+			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 93 299 86 42 <br>(+34) 615 92 33 22</small></li>
 			                    <li><i class="fa fa-envelope fa-lg"></i><small><a href="#">info@anyplast.com</a></small></li>
 			                    <li><i class="fa fa-clock-o fa-lg"></i><small>Lunes / Viernes<br>08:00 - 19:00</small></li>
 			                  </ul>
@@ -264,7 +264,7 @@
 	</div>
 
 	<script type="text/javascript">
-      initialize('C/La Rasa, 52 Barcelona', 'Anyplast');
+      initialize('C/Sardenya 229, Barcelona', 'Anyplast');
     </script>
 
 </body>

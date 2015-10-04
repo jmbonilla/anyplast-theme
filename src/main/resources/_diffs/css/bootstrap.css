@@ -1938,7 +1938,8 @@ textarea.input-lg {
 
 @media ( min-width :768px) {
 	.form-horizontal .control-label {
-		text-align: right
+		text-align: right;
+		width: 230px
 	}
 }
 

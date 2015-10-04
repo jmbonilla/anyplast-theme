@@ -277,7 +277,7 @@ fieldset .panel-heading h4{
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	font-size: 1.4em;
-	padding-bottom: 0.5em;
+	margin: 0;
 }
 					
 .form-control {
@@ -307,6 +307,11 @@ input.form-control, select.form-control {
 form .register-button .button-holder button {
 	padding: 10px 40px;
 	border: 2px solid;
+}
+
+.ap-taula-rols input[type="radio"] {
+    height: 20px;
+    width: 20px;
 }
 
 /* Detail styles */
