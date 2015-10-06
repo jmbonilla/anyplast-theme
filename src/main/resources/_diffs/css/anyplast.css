@@ -451,6 +451,9 @@ table.invoiceUpdate td{
 	color: #004621;
 	font-style: italic;
 }
+#invoice * .vermell{
+	color: #ff0000;
+}
 #invoice input.form-control, #invoice select.form-control{
 	height: 25px !important;
 	border: none;
