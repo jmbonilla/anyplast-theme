@@ -424,6 +424,7 @@ table.invoiceUpdate td{
 .editInvoice{
     padding: 2em !important;
 	border: 1px solid #999 !important;
+	background: url('/anyplast-theme/images/utils/borrador.png') no-repeat 50% 5%;
 }
 
 #invoice * table{
