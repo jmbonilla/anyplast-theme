@@ -144,6 +144,10 @@ td.opPrueba{ color: #a2d165 !important; font-weight: bold; }
 td.opCompra{ color: #009245 !important; font-weight: bold; }
 td.opContacto{ color: #FFAC31 !important; font-weight: bold; }
 
+.vermell{
+	color: #ff0000 !important;
+}
+
 
 /* Slider */
 
@@ -451,9 +455,6 @@ table.invoiceUpdate td{
 #invoice * .verd{
 	color: #004621;
 	font-style: italic;
-}
-#invoice * .vermell{
-	color: #ff0000;
 }
 #invoice input.form-control, #invoice select.form-control{
 	height: 25px !important;
