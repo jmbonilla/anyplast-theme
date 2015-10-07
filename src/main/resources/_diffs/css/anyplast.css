@@ -555,4 +555,6 @@ table.invoiceUpdate td{
 }
 #invoice .editRowFooter{
 	padding-top: 1em !important;
+	font-style: normal !important;
+    font-size: 100% !important;
 }
