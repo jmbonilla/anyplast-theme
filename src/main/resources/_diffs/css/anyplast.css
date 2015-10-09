@@ -33,6 +33,9 @@ h5, blockquote .bold-quote {
 	height: 40px;
 	padding: 0 10px 0 0;
 }
+#footer ul.work-icon {
+	margin-top: -0.5em;
+}
 #footer ul.work-icon li{
 	display: inline-block;
 	height: 45px;

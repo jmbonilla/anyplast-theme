@@ -165,74 +165,45 @@
 		        <div class="inner sep-bottom-xs">
 		          <div class="container">
 		            <div class="row">
-		              <div class="col-md-6 col-sm-6">
-						<div class="row">
-						  <div class="widget sep-top-md">
+		              <div class="col-md-7 col-sm-6">
+		              	<div class="row">
+						  <div class="widget sep-top-sm">
 						    <img src="/anyplast-theme/images/logo-anyplast.png" alt="" class="logo">
 						  </div>
 						</div>
 			            <div class="row">
-			              <div class="col-md-6 col-sm-6">
-			                <div class="widget sep-top-sm">
+			              <div class="col-md-4 col-sm-4">
+			                <div class="widget sep-top-xs">
 			                  <h6 class="upper widget-title"></h6>
 			                  <ul class="widget-address sep-top-xs">
-			                    <li><i class="fa fa-info-circle fa-lg"></i><small>Anyrecycled S.L. <br/>B 66424243</small></li>
-			                    <li><i class="fa fa-map-marker fa-lg"></i><small>C/Sardenya, 229 Ático 2a<br/>08013 - Barcelona<br/>(Barcelona)</small></li>
+			                    <li><i class="fa fa-info-circle fa-lg"></i><small>Anyrecycled S.L.</small></li>
+			                    <li><i class="fa fa-clock-o fa-lg"></i><small>Lunes / Viernes<br>08:00 - 19:00</small></li>
 			                  </ul>
 			                </div>
 			              </div>
-			              <div class="col-md-6 col-sm-6">
-			                <div class="widget sep-top-sm">
+			              <div class="col-md-4 col-sm-4">
+			                <div class="widget sep-top-xs">
 			                  <h6 class="upper widget-title"></h6>
 			                  <ul class="widget-address sep-top-xs">
 			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 93 299 86 42 <br>(+34) 615 92 33 22</small></li>
-			                    <li><i class="fa fa-envelope fa-lg"></i><small><a href="#">info@anyplast.com</a></small></li>
-			                    <li><i class="fa fa-clock-o fa-lg"></i><small>Lunes / Viernes<br>08:00 - 19:00</small></li>
+			                    <li><i class="fa fa-envelope fa-lg"></i><small><a href="mailto:info@anyplast.com">info@anyplast.com</a></small></li>
+			                  </ul>
+			                </div>
+			              </div>
+			              <div class="col-md-4 col-sm-4">
+			                <div class="widget sep-top-xs">
+			                  <h6 class="upper widget-title"></h6>
+			                  <ul class="widget-address sep-top-xs">
+			                    <li><i class="fa fa-map-marker fa-lg"></i><small>C/Sardenya, 229 Ático 2a<br/>08013 - Barcelona<br/>(Barcelona)</small></li>
 			                  </ul>
 			                </div>
 			              </div>
 			            </div>
 		              </div>
-		              <div class="col-md-2 col-sm-6">
-						  <div class="row">
-							<div class="widget sep-top-lg">
-							  <h6 class="upper widget-title">S&iacute;guenos en</h6>
-							  <ul class="social-icon sep-top-xs">
-								<li><a href="#" class="fa fa-linkedin fa-lg"></a></li>
-								<li><a href="#" class="fa fa-twitter fa-lg"></a></li>
-								<li><a href="#" class="fa fa-facebook fa-lg"></a></li>
-								<li><a href="#" class="fa fa-google-plus fa-lg"></a></li>
-							  </ul>
-							</div>
-						  </div>
-						  <div class="row">
-							<div class="widget sep-top-md">
-							  <h6 class="upper widget-title">Formas de pago</h6>
-							  <ul class="payment-icon">
-								<li><a href="https://www.visaeurope.es" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos cardVisa" width="45" alt="Visa" title="Pago seguro con Visa"></a></li>
-								<li><a href="http://www.mastercard.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos cardMasterCard" width="45" alt="MasterCard" title="Pago seguro con MasterCard"></a></li>
-							  </ul>
-							  <ul class="payment-icon">
-								<li><a href="https://www.americanexpress.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos cardAmericanExpress" width="45" alt="AmericanExpress" title="Pago seguro con AmericanExpress"></a></li>
-								<li><a href="http://www.euro6000.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos cardEuro6000" width="45" alt="Euro6000" title="Pago seguro con Euro6000"></a></li>
-							  </ul>
-							</div>
-						  </div>
-						  <div class="row">
-							<div class="widget sep-top-md">
-							  <h6 class="upper widget-title">Trabajamos con</h6>
-							  <ul class="work-icon">
-								<li><a href="http://www.envialia.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workEnvialia" width="47" alt="Envialia" title="EnvÃ­os con Envialia"></a></li>
-								<li><a href="http://www.tdn.es" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workTDN" width="47" alt="TDN" title="EnvÃ­os con TDN"></a></li>
-								<li><a href="https://www.bancsabadell.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workBSabadell" width="47" alt="BancSabadell" title="Pago seguro mediante TPV BancSabadell"></a></li>
-							  </ul>
-							</div>
-						  </div>
-		              </div>
-		              <div class="col-md-4 col-sm-6">
-		                <div class="widget sep-top-lg">
+		              <div class="col-md-5 col-sm-6">
+		                <div class="widget sep-top-sm">
 		                  <h6 class="upper widget-title">Google Maps</h6>
-		                  <div id="map_canvas" style="width: 100%; height: 300px;"></div>
+		                  <div id="map_canvas" style="width: 100%; height: 270px;"></div>
 		                </div>
 		              </div>
 		            </div>
@@ -242,8 +213,23 @@
 		        <div class="copyright sep-top-xs sep-bottom-xs">
 		          <div class="container">
 		            <div class="row">
-		              <div class="col-md-7"><small>Copyright 2015 &copy; Anyrecycled S.L.</small></div>
-		              <div class="col-md-5 text-right">
+		              <div class="col-md-4"><small>Copyright 2015 &copy; Anyrecycled S.L. B66424243</small></div>
+		              <div class="col-md-2">
+		              	<ul class="work-icon">
+						  <li><a href="http://www.envialia.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workEnvialia" width="47" alt="Envialia" title="Env&iacute;os con Envialia"></a></li>
+						  <li><a href="http://www.tdn.es" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workTDN" width="47" alt="TDN" title="Env&iacute;os con TDN"></a></li>
+						  <li><a href="https://www.bancsabadell.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workBSabadell" width="47" alt="BancSabadell" title="Pago seguro mediante TPV BancSabadell"></a></li>
+						</ul>
+					  </div>
+					  <div class="col-md-1 text-right">
+						<ul class="social-icon">
+						  <li><a href="#" class="fa fa-linkedin fa-lg"></a></li>
+						  <!-- <li><a href="#" class="fa fa-twitter fa-lg"></a></li> -->
+						  <!-- <li><a href="#" class="fa fa-facebook fa-lg"></a></li> -->
+						  <!-- <li><a href="#" class="fa fa-google-plus fa-lg"></a></li> -->
+						</ul>
+					  </div>
+		              <div class="col-md-offset-1 col-md-4 text-right">
 						<small>
 						  <a href="/aviso-legal">Aviso legal</a> |
 						  <a href="/politica-privacidad">Pol&iacute;tica de privacidad</a> |
