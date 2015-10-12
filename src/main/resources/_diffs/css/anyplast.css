@@ -33,6 +33,9 @@ h5, blockquote .bold-quote {
 	height: 40px;
 	padding: 0 10px 0 0;
 }
+#footer ul.work-icon {
+	margin-top: -0.5em;
+}
 #footer ul.work-icon li{
 	display: inline-block;
 	height: 45px;
@@ -143,6 +146,10 @@ td.opMuestra{ color: #999999 !important; font-weight: bold; }
 td.opPrueba{ color: #a2d165 !important; font-weight: bold; }
 td.opCompra{ color: #009245 !important; font-weight: bold; }
 td.opContacto{ color: #FFAC31 !important; font-weight: bold; }
+
+.vermell{
+	color: #ff0000 !important;
+}
 
 
 /* Slider */
@@ -424,6 +431,7 @@ table.invoiceUpdate td{
 .editInvoice{
     padding: 2em !important;
 	border: 1px solid #999 !important;
+	background: url('/anyplast-theme/images/utils/borrador.png') no-repeat 50% 5%;
 }
 
 #invoice * table{
@@ -550,4 +558,6 @@ table.invoiceUpdate td{
 }
 #invoice .editRowFooter{
 	padding-top: 1em !important;
+	font-style: normal !important;
+    font-size: 100% !important;
 }

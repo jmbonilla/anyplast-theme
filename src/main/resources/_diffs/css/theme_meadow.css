@@ -2071,6 +2071,7 @@ label.error {
 }
 #footer .copyright {
   background: #171717;
+  padding-bottom: 0.5em;
 }
 #footer small {
   color: #999999;
