@@ -5,7 +5,7 @@
 <html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
 
 <head>
-	<title>$the_title - $company_name</title>
+	<title>$the_title </title>
 
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 	
@@ -25,10 +25,14 @@
       <link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/styleNoJs.css">
     </noscript>
     
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/modernizr.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/plugin.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/bootstrap.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/bootstrap-extend.js"></script>
+    <script src="$themeDisplay.getPathThemeRoot()/js/mask/jquery.mask.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/main.js"></script>
     
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> 
