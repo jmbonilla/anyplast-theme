@@ -225,15 +225,17 @@
 						  <li><a href="https://www.bancsabadell.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workBSabadell" width="47" alt="BancSabadell" title="Pago seguro mediante TPV BancSabadell"></a></li>
 						</ul>
 					  </div>
-					  <div class="col-md-1 text-right">
+					  <div class="col-md-2 text-center">
 						<ul class="social-icon">
-						  <li><a href="#" class="fa fa-linkedin fa-lg"></a></li>
+						  <li><small style="display: inline; padding-right: 1em;">Más en: </small>
+						  	<a href="https://www.linkedin.com/company/anyplast"
+						  		class="fa fa-linkedin fa-lg" target="_blank"></a></li>
 						  <!-- <li><a href="#" class="fa fa-twitter fa-lg"></a></li> -->
 						  <!-- <li><a href="#" class="fa fa-facebook fa-lg"></a></li> -->
 						  <!-- <li><a href="#" class="fa fa-google-plus fa-lg"></a></li> -->
 						</ul>
 					  </div>
-		              <div class="col-md-offset-1 col-md-4 text-right">
+		              <div class="col-md-4 text-right">
 						<small>
 						  <a href="/aviso-legal">Aviso legal</a> |
 						  <a href="/politica-privacidad">Pol&iacute;tica de privacidad</a> |
