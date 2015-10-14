@@ -66,8 +66,8 @@
                   <div class="slide-content text-center">
                     <h2 class="main-title">ANYPLAST, EL MERCADO VIRTUAL DEL <span class="text-primary">PL&Aacute;STICO RECICLADO</span></h2>
                     <blockquote>
-                      <a href="/autenticacion" class="btn btn-light btn-bordered btn-lg">Login</a>
-					  <a href="/autenticacion" class="btn btn-primary btn-lg">Reg&iacute;strate</a>
+                      <a href="/login" class="btn btn-light btn-bordered btn-lg">Login</a>
+					  <a href="/login" class="btn btn-primary btn-lg">Reg&iacute;strate</a>
                     </blockquote>
                   </div>
                 </div>
