@@ -409,6 +409,25 @@ li.toggle-controls>a {
 
 }
 
+
+/* Role tables */
+div.ap-taula-rols > div {
+	text-align: center;
+	margin: 0.5em 0;
+}
+div.ap-taula-rols > div > div.th {
+	text-align: left;
+	font-weight: bold;
+}
+div.ap-taula-rols * div.panel-heading {
+	color: #fff;
+	padding: 12px !important;
+}
+div.ap-taula-rols * span.glyphicon-remove{ color: red; }
+div.ap-taula-rols * span.glyphicon-ok{ color: green; }
+div.ap-taula-rols * span.glyphicon-star{ color: gold; }
+
+
 /* Invoices */
 table.invoiceUpdate{
     margin-bottom: 3em;
