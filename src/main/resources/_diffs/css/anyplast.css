@@ -346,6 +346,7 @@ ul#tabs.nav-tabs li.active>a {
 	color: #009245;
 	font-weight: bold;
 	font-size: 120%;
+	margin-top: 0.5em;
 }
 
 /* Accordion */
