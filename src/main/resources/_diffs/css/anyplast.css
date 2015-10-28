@@ -138,14 +138,18 @@ tr.noPublicat{ background-color: #ffffd0 !important; }
 tr.opAsampleConfirm, tr.opAcertificationConfirm{
 	background-color: #ffffd0 !important;
 }
-td.opVendiendo{ color: #222222 !important; font-weight: bold; }
-td.opComprando{ color: #49780D !important; font-weight: bold; }
-td.opCertificando{ color: #0066B3 !important; font-weight: bold; }
 
-td.opMuestra{ color: #999999 !important; font-weight: bold; }
-td.opPrueba{ color: #a2d165 !important; font-weight: bold; }
-td.opCompra{ color: #009245 !important; font-weight: bold; }
-td.opContacto{ color: #FFAC31 !important; font-weight: bold; }
+td.op{font-weight: bold;}
+td.opVendiendo{ color: #222222 !important; }
+td.opComprando{ color: #49780D !important; }
+td.opCertificando{ color: #0066B3 !important; }
+
+td.opSAMPLE{ color: #999999 !important; }
+td.opTEST{ color: #a2d165 !important; }
+td.opBUY{ color: #009245 !important; }
+td.opOFFER{ color: #FFAC31 !important; }
+td.opSUBSCRIPTION{ color: #FFAC31 !important; }
+td.opCONTACT{ color: #FFAC31 !important; }
 
 .vermell{
 	color: #ff0000 !important;
