@@ -43,6 +43,7 @@
 			        		<a id="dropdownMenuLogin" href="#" data-toggle="dropdown" class="upper dropdown-toggle">$themeDisplay.getUser().getFullName()</a>
 			                <ul class="dropdown-menu">
 								<li><a href="/mi-cuenta" title="Mi cuenta" data-ref="about"><i class="icon-user"></i> Mi cuenta</a></li>
+								<li><a href="/mi-suscripcion" title="Mi suscripción" data-ref="about"><i class="icon-bookmark"></i> Mi suscripción</a></li>
 								<li><a href="/c/portal/logout" title="Salir" data-ref="about"><i class="icon-off"></i> Salir</a></li>
 							</ul>
 			            </li>
