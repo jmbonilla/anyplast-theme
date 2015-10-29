@@ -77,6 +77,14 @@ blockquote.theme {
 	font-weight: bold;
 }
 
+@media (max-width: 979px) {
+	.navbar-fixed-top{
+		margin-bottom: 0px !important;
+		background: url('/anyplast-theme/images/menu_bckgnd_image_lg.jpg') no-repeat !important;
+    	padding-left: 1em !important;
+	}
+}
+
 /* 02. General Rules
    ---------------------------------------------------------------------------*/
 html,
