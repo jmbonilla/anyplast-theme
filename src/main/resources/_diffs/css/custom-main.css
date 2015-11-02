@@ -70,11 +70,22 @@ blockquote.theme {
 	-moz-hyphens: none !important;
 }
 
-.aui #breadcrumbs { margin-bottom: 25px !important; }
+.aui #breadcrumbs { margin-bottom: 15px !important; }
 
 .boldBlack{
 	color: #000000 !important;
 	font-weight: bold;
+}
+
+div.infoCondicions p{
+	margin: 1em;
+    border: 1px dotted;
+    padding: 0.5em;
+    text-align: left;
+}
+div.infoCondicions .checkCondicions{
+	margin-top: -5px;
+	margin-right: 1em;
 }
 
 /* Menú: Tablets i Mòbils ---------------------------------------------------*/
