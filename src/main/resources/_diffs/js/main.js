@@ -957,15 +957,21 @@ $(document).ready(function() {
     // init Theme functions
     Ottavio.init();
 
-}).on('click','.navbar-toggle',function() {
-    // toggle navigation
-    $('.navbar-collapse').toggleClass('in');
+});
 
-}).on('click','.navbar-collapse.in',function(e) {
-    // close navigation on click
-    if( $(e.target).is('a') ) {
-        $('.navbar-collapse').toggleClass('in');
-    }
+/* Menu per mòbils */
+$(document).ready(function() {
+	$('.navbar-toggle').on('click',function() {
+		    // toggle navigation
+		    $('.navbar-collapse').toggleClass('in');
+	
+		});
+	$('.navbar-collapse.in').on('click',function(e) {
+			// close navigation on click
+			if( $(e.target).is('a') ) {
+				$('.navbar-collapse').toggleClass('in');
+			}
+		});
 });
 
 $(window).resize(function () {

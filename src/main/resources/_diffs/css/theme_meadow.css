@@ -1478,9 +1478,6 @@ fieldset[disabled] .btn-info.btn-bordered.active {
   background: #ffffff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.navbar-standard div.container.noSlider {
-  background-image: url('/anyplast-theme/images/menu_bckgnd_image_lg.jpg');
-}
 .navbar-standard.opaque .navbar-nav > li > a {
   color: #999999;
 }
