@@ -585,3 +585,72 @@ table.invoiceUpdate td{
 	font-style: normal !important;
     font-size: 100% !important;
 }
+
+/* Terminos legales */
+#terminosLegales{
+	padding: 0 3em;
+}
+#terminosLegales section{
+	padding-top: 1em;
+}
+#terminosLegales a.tlTop{
+	float: right;
+	font-size: 75%;
+}
+#terminosLegales h2{
+    font-size: 3.3em;
+    line-height: 1em;
+    color: #222;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+    margin-bottom: 1em;
+}
+#terminosLegales h3{
+    margin-top: 5em;
+    border-bottom: 1px solid #009245;
+    margin-bottom: 1em;
+}
+#terminosLegales h4{
+	margin-top: 2em;
+	padding-left: 1em;
+}
+#terminosLegales h5{
+	margin-top: 1em;
+	padding-left: 1.5em;
+}
+#terminosLegales p{
+	padding-left: 3em;
+}
+#terminosLegales ul, #terminosLegales ol{
+	padding-left: 3em;
+}
+#terminosLegales li{
+	line-height: 1.6em;
+}
+#terminosLegales dl{
+    margin-bottom: 0.5em !important;
+    padding-left: 3em;
+}
+
+#terminosLegales #tlIndice a{
+	font-weight: bold;
+}
+#terminosLegales #tlIndice ul>li{
+	padding-left: 3em;
+	list-style: none;
+	margin-bottom: 1em;
+}
+#terminosLegales #tlIndice ul> li> ul{
+	padding-left: 2em;
+	list-style-type: lower-norwegian;
+}
+
+#terminosLegales #tlTerminos ol{
+	padding-left: 3em;
+    list-style-type: lower-roman;
+}
+#terminosLegales #tlAnyplast{
+	padding-top: 2em;
+}
