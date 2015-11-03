@@ -77,13 +77,14 @@ blockquote.theme {
 	font-weight: bold;
 }
 
-div.infoCondicions p{
-	margin: 1em;
+div.infoConditions p{
+	margin: 0.5em;
     border: 1px dotted;
     padding: 0.5em;
     text-align: left;
+	font-size: 90%;
 }
-div.infoCondicions .checkCondicions{
+div.infoConditions .conditions{
 	margin-top: -5px;
 	margin-right: 1em;
 }

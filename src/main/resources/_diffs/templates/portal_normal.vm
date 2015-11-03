@@ -218,7 +218,7 @@
 		          <div class="container">
 		            <div class="row">
 		              <div class="col-md-4"><small>Copyright 2015 &copy; Anyrecycled S.L. B66424243</small></div>
-		              <div class="col-md-2">
+		              <div class="col-md-3">
 		              	<ul class="work-icon">
 						  <li><a href="http://www.envialia.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workEnvialia" width="47" alt="Envialia" title="Env&iacute;os con Envialia"></a></li>
 						  <li><a href="http://www.tdn.es" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workTDN" width="47" alt="TDN" title="Env&iacute;os con TDN"></a></li>
@@ -235,7 +235,7 @@
 						  <!-- <li><a href="#" class="fa fa-google-plus fa-lg"></a></li> -->
 						</ul>
 					  </div>
-		              <div class="col-md-4 text-right">
+		              <div class="col-md-3 text-right">
 						<small>
 						  <a href="/terminos-legales">Términos legales</a>
 						</small>
