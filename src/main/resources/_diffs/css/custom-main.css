@@ -89,6 +89,13 @@ div.infoConditions .conditions{
 	margin-right: 1em;
 }
 
+div.adminAnyplast{
+	background-color: #e0ffe0;
+	padding: 1em;
+	border-radius: 10px;
+	border: 1px solid #999;
+}
+
 /* Menú: Tablets i Mòbils ---------------------------------------------------*/
 @media (max-width: 990px) {
 	.navbar-fixed-top{
