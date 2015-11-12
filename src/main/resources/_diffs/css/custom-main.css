@@ -100,12 +100,29 @@ div.adminAnyplast{
 @media (max-width: 990px) {
 	.navbar-fixed-top{
 		margin-bottom: 0px !important;
-		background: url('/anyplast-theme/images/menu_bckgnd_image_lg.jpg') no-repeat !important;
+		/*background: url('/anyplast-theme/images/menu_bckgnd_image_lg.jpg') no-repeat !important; */
     	padding-left: 1em !important;
 	}
 }
 .navbar-standard div.container.noSlider {
   background-image: url('/anyplast-theme/images/menu_bckgnd_image_lg.jpg');
+}
+.navbar-standard.opaque * .navbar-standard div.container.noSlider {
+  background-image: none !important;
+}
+.navbar-standard.opaque .navbar-nav > li > a{
+	color: #222;
+}
+.fa-align-justify {
+	color: #222;
+}
+@media (max-width: 978px) {
+	.navbar-standard div.container.noSlider {
+	  background: #fff !important;
+	}
+	.aui .navbar .nav > li > a {
+    	color: #222;
+	}
 }
 
 @media (max-width: 768px) {
