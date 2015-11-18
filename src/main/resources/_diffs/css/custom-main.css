@@ -107,8 +107,8 @@ div.adminAnyplast{
 .navbar-standard div.container.noSlider {
   background-image: url('/anyplast-theme/images/menu_bckgnd_image_lg.jpg');
 }
-.navbar-standard.opaque * .navbar-standard div.container.noSlider {
-  background-image: none !important;
+.navbar-standard.opaque div.container.noSlider {
+  background: none !important;
 }
 .navbar-standard.opaque .navbar-nav > li > a{
 	color: #222;

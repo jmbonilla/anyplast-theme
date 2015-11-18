@@ -428,6 +428,9 @@ div.ap-taula-rols * div.panel-heading {
 	color: #fff;
 	padding: 12px !important;
 }
+div.ap-taula-rols * div.row {
+	margin: 0 !important;
+}
 div.ap-taula-rols * span.glyphicon-remove{ color: red; }
 div.ap-taula-rols * span.glyphicon-ok{ color: green; }
 div.ap-taula-rols * span.glyphicon-star{ color: gold; }
