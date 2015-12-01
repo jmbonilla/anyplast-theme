@@ -55,7 +55,7 @@
 	<!-- Start header Section-->
       <section class="demo-2">
 		
-		#if ( $the_title == "Welcome" || $the_title == "Home" )
+		#if ( $the_title == "Welcome" || $the_title == "Home" || $the_title == "Anyplast • The Recycled Plastic eMarketplace" )
         <!-- Start slider-wrapper-->
         <div id="slider" style="display:none;" class="sl-slider-wrapper">
           <div class="sl-slider">
@@ -189,7 +189,7 @@
 			                <div class="widget sep-top-xs">
 			                  <h6 class="upper widget-title"></h6>
 			                  <ul class="widget-address sep-top-xs">
-			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 93 299 86 42 <br>(+34) 615 92 33 22</small></li>
+			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 93 299 86 42</small></li>
 			                    <li><i class="fa fa-envelope fa-lg"></i><small><a href="mailto:info@anyplast.com">info@anyplast.com</a></small></li>
 			                  </ul>
 			                </div>
