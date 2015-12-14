@@ -70,11 +70,65 @@ blockquote.theme {
 	-moz-hyphens: none !important;
 }
 
-.aui #breadcrumbs { margin-bottom: 25px !important; }
+.aui #breadcrumbs { margin-bottom: 15px !important; }
 
 .boldBlack{
 	color: #000000 !important;
 	font-weight: bold;
+}
+
+div.infoConditions p{
+	margin: 0.5em;
+    border: 1px dotted;
+    padding: 0.5em;
+    text-align: left;
+	font-size: 90%;
+}
+div.infoConditions .conditions{
+	margin-top: -5px;
+	margin-right: 1em;
+}
+
+div.adminAnyplast{
+	background-color: #e0ffe0;
+	padding: 1em;
+	border-radius: 10px;
+	border: 1px solid #999;
+}
+
+/* Menú: Tablets i Mòbils ---------------------------------------------------*/
+@media (max-width: 990px) {
+	.navbar-fixed-top{
+		margin-bottom: 0px !important;
+		/*background: url('/anyplast-theme/images/menu_bckgnd_image_lg.jpg') no-repeat !important; */
+    	padding-left: 1em !important;
+	}
+}
+.navbar-standard div.container.noSlider {
+  background-image: url('/anyplast-theme/images/menu_bckgnd_image_lg.jpg');
+}
+.navbar-standard.opaque div.container.noSlider {
+  background: none !important;
+}
+.navbar-standard.opaque .navbar-nav > li > a{
+	color: #222;
+}
+.fa-align-justify {
+	color: #222;
+}
+@media (max-width: 978px) {
+	.navbar-standard div.container.noSlider {
+	  background: #fff !important;
+	}
+	.aui .navbar .nav > li > a {
+    	color: #222;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar .nav, .navbar .nav>li{
+		float: none !important;
+	}
 }
 
 /* 02. General Rules

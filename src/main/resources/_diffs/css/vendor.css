@@ -25,6 +25,11 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
+.fa-align-justify{
+  font-size: 3em !important;
+  line-height: 2em !important;
+  padding: 0 0.5em !important;
+}
 .fa-2x {
   font-size: 2em;
 }
@@ -2049,7 +2054,7 @@
 	height: 30px;
 	width: 100%;
 	left: 0;
-	z-index: 1000;
+	z-index: 1;
 }
 
 .nav-dots span {

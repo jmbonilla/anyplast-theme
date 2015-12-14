@@ -12,7 +12,7 @@
             </div>
           </div>
         </form>
-        #if ( $the_title == "Welcome" || $the_title == "Home" )
+        #if ( $the_title == "Welcome" || $the_title == "Home" || $the_title == "Anyplast • The Recycled Plastic eMarketplace"  )
         <div class="container">
         #else
         <div class="container noSlider">

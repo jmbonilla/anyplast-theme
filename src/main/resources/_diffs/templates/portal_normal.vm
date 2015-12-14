@@ -60,7 +60,7 @@
 	<!-- Start header Section-->
       <section class="demo-2">
 		
-		#if ( $the_title == "Welcome" || $the_title == "Home" )
+		#if ( $the_title == "Welcome" || $the_title == "Home" || $the_title == "Anyplast • The Recycled Plastic eMarketplace" )
         <!-- Start slider-wrapper-->
         <div id="slider" style="display:none;" class="sl-slider-wrapper">
           <div class="sl-slider">
@@ -194,7 +194,7 @@
 			                <div class="widget sep-top-xs">
 			                  <h6 class="upper widget-title"></h6>
 			                  <ul class="widget-address sep-top-xs">
-			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 93 299 86 42 <br>(+34) 615 92 33 22</small></li>
+			                    <li><i class="fa fa-phone fa-lg"></i><small>(+34) 93 299 86 42</small></li>
 			                    <li><i class="fa fa-envelope fa-lg"></i><small><a href="mailto:info@anyplast.com">info@anyplast.com</a></small></li>
 			                  </ul>
 			                </div>
@@ -223,7 +223,7 @@
 		          <div class="container">
 		            <div class="row">
 		              <div class="col-md-4"><small>Copyright 2015 &copy; Anyrecycled S.L. B66424243</small></div>
-		              <div class="col-md-2">
+		              <div class="col-md-3 text-center">
 		              	<ul class="work-icon">
 						  <li><a href="http://www.envialia.com" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workEnvialia" width="47" alt="Envialia" title="Env&iacute;os con Envialia"></a></li>
 						  <li><a href="http://www.tdn.es" target="_blank"><img src="$themeDisplay.getPathThemeRoot()/images/icons/x.gif" class="minilogos workTDN" width="47" alt="TDN" title="Env&iacute;os con TDN"></a></li>
@@ -237,10 +237,11 @@
 						  		class="fa fa-linkedin fa-lg" target="_blank"></a></li>
 						  <!-- <li><a href="#" class="fa fa-twitter fa-lg"></a></li> -->
 						  <!-- <li><a href="#" class="fa fa-facebook fa-lg"></a></li> -->
-						  <!-- <li><a href="#" class="fa fa-google-plus fa-lg"></a></li> -->
+						  <li><a href="https://plus.google.com/+AnyplastES/posts"
+						  		class="fa fa-google-plus fa-lg" target="_blank"></a></li>
 						</ul>
 					  </div>
-		              <div class="col-md-4 text-right">
+		              <div class="col-md-3 text-right">
 						<small>
 						  <a href="/terminos-legales">Términos legales</a>
 						</small>
