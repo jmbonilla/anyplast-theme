@@ -263,7 +263,7 @@
       initialize('C/Sardenya 229, Barcelona', 'Anyplast');
       
       cookieBar({
-            message: "Este sitio web utiliza cookies propias para ofrecer un mejor servicio. Si continúa navegando consideramos que acepta su uso. Encontrará más información en nuestra Política de condiciones",
+            message: "Este sitio web utiliza cookies propias para ofrecer un mejor servicio. Si continúa navegando consideramos que acepta su uso. Encontrará más información en nuestra Política de condiciones<br>",
             acceptText: "Aceptar",
             policyButton: true,
             policyText: "Más información",
