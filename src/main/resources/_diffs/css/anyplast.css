@@ -16,6 +16,7 @@ h5, blockquote .bold-quote {
 /* Footer */
 .aui #footer {
 	text-align: left;
+	margin-bottom: 50px;
 }
 
 @media (min-width: 1200px) {
@@ -580,4 +581,12 @@ table.invoiceUpdate td{
 	padding-top: 1em !important;
 	font-style: normal !important;
     font-size: 100% !important;
+}
+
+/* Select2 Fix */
+.select2-container, .select2-input {
+    width: 100%!important;
+}
+.select2-results {
+    margin: 3px!important;
 }

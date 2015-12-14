@@ -18,7 +18,10 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700">
     <link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/vendor.css">
     <link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/bootstrap.css">
+    <link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/jquery.cookiebar.css">
     <link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/custom-main.css">
+    <link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/select2.css">
+    <link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/select2-bootstrap.css">
     <link id="primary_color_scheme" rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/theme_meadow.css">
     <link rel="icon" href="$themeDisplay.getPathThemeRoot()/images/favicon.ico" type="image/x-icon" />
     <noscript>
@@ -32,7 +35,9 @@
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/plugin.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/bootstrap.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/bootstrap-extend.js"></script>
+    <script src="$themeDisplay.getPathThemeRoot()/js/vendor/select2.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/mask/jquery.mask.js"></script>
+    <script src="$themeDisplay.getPathThemeRoot()/js/cookies/jquery.cookiebar.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/main.js"></script>
     
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> 
@@ -255,6 +260,14 @@
 
 	<script type="text/javascript">
       initialize('C/Sardenya 229, Barcelona', 'Anyplast');
+      
+      cookieBar({
+            message: "Este sitio web utiliza cookies propias para ofrecer un mejor servicio. Si continúa navegando consideramos que acepta su uso. Encontrará más información en nuestra Política de condiciones",
+            acceptText: "Aceptar",
+            policyButton: true,
+            policyText: "Más información",
+            policyURL: "/cookies"
+        });
     </script>
 	
 	<script>

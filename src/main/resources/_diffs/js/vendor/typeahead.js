@@ -762,7 +762,11 @@
                 top: "100%",
                 left: "0",
                 zIndex: "100",
-                display: "none"
+                display: "none",
+                backgroundColor: "#FFF",
+            	border: "1px solid #C5C5C5",
+            	padding: "9px",
+            	borderRadius: "5px",
             },
             suggestions: {
                 display: "block"
