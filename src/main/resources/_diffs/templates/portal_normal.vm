@@ -28,9 +28,6 @@
       <link rel="stylesheet" href="$themeDisplay.getPathThemeRoot()/css/styleNoJs.css">
     </noscript>
     
-    
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/modernizr.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/plugin.js"></script>
     <script src="$themeDisplay.getPathThemeRoot()/js/vendor/bootstrap.js"></script>

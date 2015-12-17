@@ -135,6 +135,7 @@ tr.ad_venda{ background-color: #faffff; }
 tr.ad_compra{ background-color: #fafffa; }
 tr.noValidat{ background-color: #ffd0d0 !important; }
 tr.noPublicat{ background-color: #ffffd0 !important; }
+tr.eliminat{ background-color: #E6E5E5 !important; }
 
 tr.opAsampleConfirm, tr.opAcertificationConfirm{
 	background-color: #ffffd0 !important;
