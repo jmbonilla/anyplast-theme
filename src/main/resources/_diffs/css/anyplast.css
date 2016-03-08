@@ -686,3 +686,13 @@ table.invoiceUpdate td{
 	padding-top: 2em;
 }
 
+/* BIG BAGS */
+h4.bigbags{
+	margin: 0 !important;
+	padding: 5px !important;
+	background-color: #a2d165;
+	text-transform: uppercase;
+}
+table.bigbags td{
+	padding: 6px !important;
+}
