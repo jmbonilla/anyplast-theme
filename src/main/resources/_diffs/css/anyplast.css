@@ -160,9 +160,20 @@ td.destacat{
     text-align: center !important;
 }
 
+/* Utils */
 .vermell{ color: #ff0000 !important; }
 .silver{ color: silver !important; }
 .gold{ color: gold !important; }
+
+.clear{ clear: both !important; }
+.printIcon{
+	float: right;
+    font-size: 150%;
+    margin: 20px 0;
+}
+.printIcon a{
+	color: #333 !important
+}
 
 
 /* Slider */
