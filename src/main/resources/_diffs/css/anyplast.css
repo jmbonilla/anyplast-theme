@@ -456,6 +456,15 @@ div.ap-taula-rols * span.glyphicon-remove{ color: red; }
 div.ap-taula-rols * span.glyphicon-ok{ color: green; }
 div.ap-taula-rols * span.glyphicon-star{ color: gold; }
 
+div.row .title{
+    background: #33A87A;
+    margin: 0;
+    padding: 0.5em 3em;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+}
+
 
 /* Invoices */
 table.invoiceUpdate{
