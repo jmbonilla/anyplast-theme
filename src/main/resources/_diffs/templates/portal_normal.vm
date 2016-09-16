@@ -200,7 +200,7 @@
 			                <div class="widget sep-top-xs">
 			                  <h6 class="upper widget-title"></h6>
 			                  <ul class="widget-address sep-top-xs">
-			                    <li><i class="fa fa-map-marker fa-lg"></i><small>C/Sardenya, 229 Ático 2a<br/>08013 - Barcelona<br/>(Barcelona)</small></li>
+			                    <li><i class="fa fa-map-marker fa-lg"></i><small>Rda Sant Pere, 52, Ático.<br/>08010 - Barcelona<br/>(Barcelona)</small></li>
 			                  </ul>
 			                </div>
 			              </div>
@@ -257,7 +257,7 @@
 	</div>
 
 	<script type="text/javascript">
-      initialize('C/Sardenya 229, Barcelona', 'Anyplast');
+      initialize('Ronda Sant Pere, 52, Barcelona', 'Anyplast');
       
       cookieBar({
             message: "Este sitio web utiliza cookies propias para ofrecer un mejor servicio. Si continúa navegando consideramos que acepta su uso. Encontrará más información en nuestra Política de condiciones<br>",
